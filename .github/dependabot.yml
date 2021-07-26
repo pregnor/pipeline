@@ -2,7 +2,7 @@ version: 2
 updates:
     - package-ecosystem: "docker"
       directory: "/"
-      open-pull-requests-limit: -1
+      open-pull-requests-limit: 3
       schedule:
           interval: "daily" # Note: only weekdays: https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/configuration-options-for-dependency-updates#scheduleinterval.
           time: "08:00" # Note: UTC.
