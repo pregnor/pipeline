@@ -31,7 +31,7 @@ require (
 	github.com/banzaicloud/integrated-service-sdk v0.6.0
 	github.com/banzaicloud/logging-operator/pkg/sdk v0.5.0
 	github.com/banzaicloud/logrus-runtime-formatter v0.0.0-20180617171254-12df4a18567f
-	github.com/banzaicloud/operator-tools v0.15.0
+	github.com/banzaicloud/operator-tools v0.23.4
 	github.com/banzaicloud/pipeline/pkg/sdk v0.0.1
 	github.com/coreos/go-oidc v2.1.0+incompatible
 	github.com/denisenkom/go-mssqldb v0.0.0-20200206145737-bbfc9a55622e // indirect
@@ -107,7 +107,7 @@ require (
 	logur.dev/integration/watermill v0.4.2
 	logur.dev/integration/zap v0.3.2
 	logur.dev/logur v0.17.0
-	sigs.k8s.io/controller-runtime v0.6.3
+	sigs.k8s.io/controller-runtime v0.8.3
 	sigs.k8s.io/testing_frameworks v0.1.2
 	sigs.k8s.io/yaml v1.2.0
 )
