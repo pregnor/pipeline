@@ -14,7 +14,7 @@ require (
 	go.uber.org/yarpc v1.45.0 // indirect
 	go.uber.org/zap v1.14.1 // indirect
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1 // indirect
-	gopkg.in/yaml.v2 v2.2.8
+	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.19.2
 	k8s.io/apimachinery v0.19.2
 	k8s.io/kubectl v0.19.2
