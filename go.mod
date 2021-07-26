@@ -18,7 +18,7 @@ require (
 	github.com/Azure/go-autorest/autorest/validation v0.3.0
 	github.com/MakeNowJust/heredoc v1.0.0
 	github.com/Masterminds/semver/v3 v3.1.1
-	github.com/ThreeDotsLabs/watermill v1.1.0
+	github.com/ThreeDotsLabs/watermill v1.1.1
 	github.com/antihax/optional v1.0.0
 	github.com/aokoli/goutils v1.1.0
 	github.com/asaskevich/EventBus v0.0.0-20180315140547-d46933a94f05
@@ -104,7 +104,7 @@ require (
 	logur.dev/adapter/logrus v0.4.1
 	logur.dev/adapter/zap v0.4.1
 	logur.dev/integration/logr v0.4.0
-	logur.dev/integration/watermill v0.4.2
+	logur.dev/integration/watermill v0.5.0
 	logur.dev/integration/zap v0.3.2
 	logur.dev/logur v0.17.0
 	sigs.k8s.io/controller-runtime v0.6.3
