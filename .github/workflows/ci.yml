@@ -207,7 +207,7 @@ jobs:
           profile: ci
 
       - name: Go module cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/go/pkg/mod
           key: ${{ runner.os }}-go-mod-${{ hashFiles('**/go.sum') }}
@@ -215,7 +215,7 @@ jobs:
             ${{ runner.os }}-go-mod-
 
       - name: Go build cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.cache/go-build
           key: ${{ runner.os }}-go-build-${{ hashFiles('**/*.go', '**/go.mod', '**/go.sum') }}
