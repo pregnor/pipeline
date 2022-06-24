@@ -31,10 +31,9 @@ require (
 	github.com/banzaicloud/integrated-service-sdk v0.6.0
 	github.com/banzaicloud/logging-operator/pkg/sdk v0.5.0
 	github.com/banzaicloud/logrus-runtime-formatter v0.0.0-20180617171254-12df4a18567f
-	github.com/banzaicloud/operator-tools v0.15.0
+	github.com/banzaicloud/operator-tools v0.28.5
 	github.com/banzaicloud/pipeline/pkg/sdk v0.0.1
 	github.com/coreos/go-oidc v2.1.0+incompatible
-	github.com/denisenkom/go-mssqldb v0.0.0-20200206145737-bbfc9a55622e // indirect
 	github.com/dexidp/dex/api/v2 v2.0.0
 	github.com/erikstmartin/go-testdb v0.0.0-20160219214506-8d10e4a1bae5 // indirect
 	github.com/ghodss/yaml v1.0.0
@@ -52,28 +51,28 @@ require (
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.1
 	github.com/jonboulle/clockwork v0.2.0
-	github.com/json-iterator/go v1.1.11
+	github.com/json-iterator/go v1.1.12
 	github.com/lestrrat-go/backoff v1.0.0
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible // indirect
 	github.com/microcosm-cc/bluemonday v1.0.3
-	github.com/mitchellh/copystructure v1.0.0
+	github.com/mitchellh/copystructure v1.1.1
 	github.com/mitchellh/mapstructure v1.4.1
 	github.com/moogar0880/problems v0.1.1
 	github.com/oklog/run v1.1.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/pelletier/go-toml v1.9.3
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.7.1
+	github.com/prometheus/client_golang v1.11.0
 	github.com/prometheus/client_model v0.2.0
 	github.com/prometheus/prom2json v1.3.0
 	github.com/sagikazarmark/appkit v0.8.0
 	github.com/sagikazarmark/kitx v0.12.0
 	github.com/sagikazarmark/ocmux v0.2.0
-	github.com/sirupsen/logrus v1.7.0
+	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/cast v1.3.1
-	github.com/spf13/cobra v1.1.1
+	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
-	github.com/spf13/viper v1.8.0
+	github.com/spf13/viper v1.8.1
 	github.com/stretchr/testify v1.7.0
 	github.com/technosophos/moniker v0.0.0-20180509230615-a5dbd03a2245
 	github.com/vmware-tanzu/velero v1.5.1
@@ -81,25 +80,25 @@ require (
 	go.opencensus.io v0.23.0
 	go.uber.org/cadence v0.16.0
 	go.uber.org/yarpc v1.45.0
-	go.uber.org/zap v1.17.0
-	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad
-	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
-	golang.org/x/oauth2 v0.0.0-20210402161424-2e8d93401602
+	go.uber.org/zap v1.19.1
+	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5
+	golang.org/x/net v0.0.0-20220114011407-0dd24b26b47d
+	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	google.golang.org/api v0.44.0
-	google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c
-	google.golang.org/grpc v1.38.0
+	google.golang.org/genproto v0.0.0-20210831024726-fe130286e0e2
+	google.golang.org/grpc v1.40.0
 	gopkg.in/resty.v1 v1.12.0
 	gopkg.in/square/go-jose.v2 v2.5.1
 	gopkg.in/yaml.v2 v2.4.0
-	helm.sh/helm/v3 v3.5.3
-	k8s.io/api v0.20.5
-	k8s.io/apiextensions-apiserver v0.20.5
-	k8s.io/apimachinery v0.20.5
-	k8s.io/cli-runtime v0.20.5
-	k8s.io/client-go v0.20.5
+	helm.sh/helm/v3 v3.7.1
+	k8s.io/api v0.23.1
+	k8s.io/apiextensions-apiserver v0.23.1
+	k8s.io/apimachinery v0.23.1
+	k8s.io/cli-runtime v0.23.1
+	k8s.io/client-go v0.23.1
 	k8s.io/cluster-bootstrap v0.20.5
 	k8s.io/klog v1.0.0
-	k8s.io/klog/v2 v2.4.0
+	k8s.io/klog/v2 v2.40.1
 	k8s.io/kubernetes v1.20.5
 	logur.dev/adapter/logrus v0.4.1
 	logur.dev/adapter/zap v0.4.1
@@ -107,9 +106,9 @@ require (
 	logur.dev/integration/watermill v0.4.2
 	logur.dev/integration/zap v0.3.2
 	logur.dev/logur v0.17.0
-	sigs.k8s.io/controller-runtime v0.6.3
+	sigs.k8s.io/controller-runtime v0.11.0
 	sigs.k8s.io/testing_frameworks v0.1.2
-	sigs.k8s.io/yaml v1.2.0
+	sigs.k8s.io/yaml v1.3.0
 )
 
 replace (
