@@ -27,7 +27,7 @@ RUN set -xe \
     && cat "${HELM_S3_CHECKSUMS_FILE_NAME}" | grep -E "^[0-9a-z]+  ${HELM_S3_ARCHIVE_FILE_NAME}$" | sha512sum -c - \
     && tar xzf "${HELM_S3_ARCHIVE_FILE_NAME}" -C "helm-plugins/helm-s3"
 
-FROM alpine:3.13
+FROM alpine:3.16.3
 
 RUN apk add --update --no-cache bash curl
 
