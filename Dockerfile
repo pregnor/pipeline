@@ -27,7 +27,7 @@ COPY . /build
 RUN make build-release
 
 
-FROM alpine:3.13 AS iamauth
+FROM alpine:3.17.0 AS iamauth
 
 WORKDIR /tmp
 
@@ -40,7 +40,7 @@ RUN set -xe \
     && chmod +x aws-iam-authenticator_${IAM_AUTH_VERSION}_linux_amd64 \
     && mv aws-iam-authenticator_${IAM_AUTH_VERSION}_linux_amd64 aws-iam-authenticator
 
-FROM alpine:3.13 AS helms3
+FROM alpine:3.17.0 AS helms3
 
 WORKDIR /tmp
 
@@ -57,7 +57,7 @@ RUN set -xe \
     && cat "${HELM_S3_CHECKSUMS_FILE_NAME}" | grep -E "^[0-9a-z]+  ${HELM_S3_ARCHIVE_FILE_NAME}$" | sha512sum -c - \
     && tar xzf "${HELM_S3_ARCHIVE_FILE_NAME}" -C "helm-plugins/helm-s3"
 
-FROM alpine:3.13 AS migrate
+FROM alpine:3.17.0 AS migrate
 
 ENV MIGRATE_VERSION v4.9.1
 
